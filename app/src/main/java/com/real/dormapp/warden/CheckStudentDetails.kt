@@ -11,6 +11,8 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import com.real.dormapp.R
+import com.real.dormapp.db.BookingDetails
+import com.real.dormapp.db.BookingDetailsDao
 
 
 @Database(entities = [BookingDetails::class], version = 1)
