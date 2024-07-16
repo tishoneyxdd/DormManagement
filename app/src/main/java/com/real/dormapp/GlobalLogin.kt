@@ -47,7 +47,7 @@ class GlobalLogin : AppCompatActivity() {
         // App repo button code
         shareRepo = findViewById(R.id.shareRepo)
         shareRepo.setOnClickListener(){
-            val url = "https://github.com/deveshp007/DormDynamo"
+            val url = "https://github.com/tishoneyxdd/DormManagement"
             val intent = Intent(Intent.ACTION_VIEW)
             intent.setDataAndType(Uri.parse(url), "text/plain")
             val choose = Intent.createChooser(intent, "Share URL")
@@ -58,11 +58,11 @@ class GlobalLogin : AppCompatActivity() {
         shareAppTxt = findViewById(R.id.shareAppTxt)
         shareAppTxt.setOnClickListener(){
             val intent = Intent(Intent.ACTION_SEND)
-            val url = "https://github.com/deveshp007/DormDynamo/releases"
+            val url = "https://github.com/tishoneyxdd/DormManagement"
             intent.type = "text/plain"
             intent.putExtra(
                 Intent.EXTRA_TEXT,
-                "Hey, Checkout this Dorm Dynamo App. $url"
+                "Hey, Checkout this Dorm Management App. $url"
             )
             val chooser = Intent.createChooser(intent, "Share this app using...")
             startActivity(chooser)
