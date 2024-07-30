@@ -9,36 +9,35 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.DormApp"
+        android:theme="@style/DormDynamo"
         tools:targetApi="31">
         <activity
             android:name=".warden.CheckStudentDetails"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".student.StudentSelectedDetails"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".warden.WardenLogin"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".student.StudentDashboard"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".student.StudentLogin"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".GlobalLogin"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".student.StudentRegister"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".warden.WardenDashboard"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
-            android:name=".SplashscreenActivity"
-            android:exported="true"
-            android:theme="@style/Theme.DormApp">
+            android:name=".SplashScreenActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
