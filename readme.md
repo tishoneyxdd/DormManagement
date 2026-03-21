@@ -1,18 +1,20 @@
-\# 🏠 RooMe  
-
-\### Dormitory Management System
+<div align="center">
 
 
 
-A native Android application designed to streamline dormitory operations — from room allocation to resident management — built using \*\*Kotlin\*\* and powered by \*\*Firebase\*\*.
+\# 🏠 RooMe
 
 
 
-\---
+\### \*Smart Dormitory Management System\*
 
 
 
-\## 🚀 Tech Stack
+A modern Android application designed to streamline student housing operations — from room allocation to resident tracking — built with Kotlin and powered by Firebase.
+
+
+
+<br />
 
 
 
@@ -28,6 +30,14 @@ A native Android application designed to streamline dormitory operations — fro
 
 
 
+<br />
+
+
+
+</div>
+
+
+
 \---
 
 
@@ -36,69 +46,29 @@ A native Android application designed to streamline dormitory operations — fro
 
 
 
-\*\*RooMe\*\* is a modern dormitory management application built to simplify student housing operations. It provides a centralized platform where administrators and students can efficiently manage rooms, track occupancy, and handle essential dorm workflows.
+\*\*RooMe\*\* is a full-featured Android application built to simplify and digitize dormitory management. It enables administrators and students to manage rooms, occupancy, and housing workflows efficiently through a centralized mobile platform.
 
 
 
-This project demonstrates:
-
-\- Real-time database integration using Firebase  
-
-\- Clean Android architecture with Kotlin  
-
-\- Practical UI/UX implementation using AndroidX  
-
-\- Role-based system design (Admin + Student)
+The project focuses on delivering a clean user experience backed by real-time cloud data, showcasing practical Android development with modern tools and scalable architecture.
 
 
 
-\---
+\### Key Highlights
 
 
 
-\## ✨ Features
+\- 🔥 \*\*Real-time Firebase backend\*\* for seamless data synchronization  
 
+\- 📱 \*\*Native Android app\*\* built entirely using Kotlin  
 
+\- 🏠 \*\*Centralized room \& resident management system\*\*  
 
-\- 🔐 \*\*Dual Login System\*\*
+\- 🔐 \*\*Authentication system\*\* for secure user access  
 
-&#x20; - Admin (Warden)
+\- ♻️ \*\*Modern AndroidX components\*\* for performance and compatibility  
 
-&#x20; - Student
-
-
-
-\- 🏠 \*\*Room Management\*\*
-
-&#x20; - Assign rooms to students
-
-&#x20; - View and manage occupancy
-
-
-
-\- 👨‍🎓 \*\*Student Control\*\*
-
-&#x20; - Select preferred rooms
-
-&#x20; - View room details
-
-
-
-\- 🔥 \*\*Firebase Integration\*\*
-
-&#x20; - Real-time database sync  
-
-&#x20; - Authentication support  
-
-&#x20; - Cloud data storage  
-
-
-
-\- 📱 \*\*Modern Android UI\*\*
-
-&#x20; - Built using AndroidX components  
-
-&#x20; - Clean and minimal design  
+\- 🧹 \*\*Clean architecture\*\* following Kotlin best practices  
 
 
 
@@ -112,17 +82,17 @@ This project demonstrates:
 
 | Layer | Technology |
 
-|------|----------|
+|---|---|
 
-| Language | Kotlin 1.8 |
+| Language | \[Kotlin 1.8](https://kotlinlang.org/) |
 
-| Platform | Android SDK |
+| Platform | \[Android SDK](https://developer.android.com/) |
 
-| Backend | Firebase |
+| Backend \& Database | \[Firebase](https://firebase.google.com/) |
 
-| UI Framework | AndroidX |
+| UI Components | \[AndroidX](https://developer.android.com/jetpack/androidx) |
 
-| Build Tool | Gradle 7.4 |
+| Build System | \[Gradle 7.4](https://gradle.org/) |
 
 | Dependencies | Maven Central + JitPack |
 
@@ -140,11 +110,15 @@ This project demonstrates:
 
 
 
-\- Android Studio (Flamingo or later)
+Make sure you have the following installed:
 
-\- JDK 11 or higher
 
-\- Firebase project setup
+
+\- \*\*Android Studio\*\* (Flamingo or later)
+
+\- \*\*JDK 11\*\* or higher
+
+\- A configured \*\*Firebase project\*\*
 
 
 
@@ -152,13 +126,29 @@ This project demonstrates:
 
 
 
-\### ⚙️ Installation
+\### Installation
 
 
 
 ```bash
 
-\# Clone the repository
+\# 1. Clone the repository
 
 git clone https://github.com/tishoneyxdd/DormManagement.git
+
+
+
+\# 2. Open the project in Android Studio
+
+\# File → Open → Select the project folder
+
+
+
+\# 3. Add Firebase configuration
+
+\# Place google-services.json inside /app
+
+
+
+\# 4. Sync Gradle and run the app
 
