@@ -2,7 +2,7 @@
 
 
 
-\# 🏠 DormDynamo
+\# 🏠 RooMe
 
 
 
@@ -30,7 +30,11 @@ A native Android application for streamlining dormitory operations — from resi
 
 
 
-<br />
+
+
+</div>
+
+
 
 \---
 
@@ -225,10 +229,6 @@ android.nonTransitiveRClass=true  # Optimised R class generation
 org.gradle.jvmargs=-Xmx2048m     # 2GB JVM heap for builds
 
 ```
-
-
-
-\---
 
 
 
